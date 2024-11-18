@@ -17,3 +17,4 @@ concat_lists([X|T], Y) ->
   concat_lists(T, [X|Y]);
 concat_lists([], Y) -> Y.
 
+%% спробуйте спростити
